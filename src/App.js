@@ -9,6 +9,7 @@ import Login from "./components/login/login";
 import Profile from "./components/profile/profile";
 import Storage from "./components/storage/storage";
 import History from "./components/history/history";
+import Test from "./components/Test";
 import ChessBoard from "./components/chessboard/chessboard";
 import Matching from "./components/matching/matching";
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from "./contracts/config";
@@ -237,6 +238,7 @@ export default function App() {
         // <BrowserRouter>
             <div className="App">
                 <Routes>
+                <Route path = "/" element = {<Test/>}></Route>
                     <Route path = "/InterfaceDemo" element = {<Login isHaveMetamask = {haveMetamask} connectTo = {connectWallet} />}></Route>
                     <Route path = "/InterfaceDemo/profile" element = {<ProfileDisplay/>}></Route>
                     <Route path = "/InterfaceDemo/storage" element = {<StorageDisplay/>}></Route>
