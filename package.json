@@ -1,7 +1,7 @@
 {
   "name": "chess-game",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://swatimahadevan.github.io/chess_game",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
